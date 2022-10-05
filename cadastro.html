@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro - Behind The Bushes</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body style="background-color: rgb(6, 39, 6);">
+    <header>
+        <nav>
+            <img class="icon" src="/imagem/icon.png" alt="">
+
+            <div style="margin-left: 180px;">
+                <h1 class="logo">BEHIND THE BUSHES</h1>               
+            </div>
+
+            <ul class="nav-list">
+                <li><a href="">LOGIN</a></li>
+                <li><a href="index.html">INÍCIO</a></li>
+                <li><a href="">SOBRE</a></li>
+            </ul>
+        </nav>
+        <div class="container">
+            <div class="box">
+                <div class="subBox">
+                    <h2>CADASTRO</h2>
+                    <form class="form1" action="insert.php" method="post">
+                        <br><br>
+                        <label for="txtNome" >Nome:</label><br>
+                        <input type="text" id="txtNome" name="txtNome" class="input1" required><br><br>
+                        
+                        <label for="txtSobrenome" >Sobrenome:</label><br>
+                        <input type="text" id="txtSobrenome" name="txtSobrenome" class="input1"  required><br><br>
+
+                        <label for="txtNick">Nickname:</label><br>
+                        <input type="text" id="txtNick" name="txtNick" class="input1"  required><br><br>
+
+                        <label for="txtEmail">E-mail:</label><br>
+                        <input type="text" id="txtEmail" name="txtEmail" class="input1" ><br><br>
+
+                        <label for="txtSenha">Senha:</label><br>
+                        <input type="password" id="txtSenha" name="txtSenha" class="input1" ><br><br>
+
+                        <label for="ConfirmSenha">Confirme a senha:</label><br>
+                        <input type="password" id="ConfirmSenha" name="ConfirmSenha" class="input1" ><br><br><br>
+
+                        <input type="submit" value="Cadastrar" nome="btnCadastrar" class="Botao">
+                    </form>
+                    <br><br>
+                    <p>Já possui cadastro? <a href="login.html" style="color: rgb(9, 109, 0);;">Clique aqui para fazer login</a></p>
+                </div>
+            </div>
+        </div>
+</body>
+</html>

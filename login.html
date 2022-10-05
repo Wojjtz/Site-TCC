@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Behind The Bushes</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body style="background-color: rgb(6, 39, 6);">
+    <header>
+        <nav>
+            <img class="icon" src="/imagem/icon.png" alt="">
+
+            <div style="margin-left: 180px;">
+                <h1 class="logo">BEHIND THE BUSHES</h1>               
+            </div>
+
+            <ul class="nav-list">
+                <li><a href="cadastro.html">CADASTRAR</a></li>
+                <li><a href="index.html">INÍCIO</a></li>
+                <li><a href="">SOBRE</a></li>
+            </ul>
+        </nav>
+        <div class="container">
+            <div class="box" style="height: 430px;">
+                <div class="subBox">
+                    <h2>LOGIN</h2>
+                    <form class="form1" action="insert.php" method="post">
+                        <br><br>
+                        <label for="txtNick">Nickname:</label><br>
+                        <input type="text" id="txtNick" name="txtNick" class="input1"  required><br><br>
+
+                        <label for="txtSenha">Senha:</label><br>
+                        <input type="password" id="txtSenha" name="txtSenha" class="input1" ><br><br><br>
+
+                        <input type="submit" value="Login" nome="btnLogin" class="Botao">
+                    </form>
+                    <br><br>
+                    <p>Não possui cadastro? <a href="cadastro.html" style="color: rgb(9, 109, 0);;">Clique aqui para cadastrar</a></p>
+                </div>
+            </div>
+        </div>
+</body>
+</html>

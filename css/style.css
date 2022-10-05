@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{   
+    background-color: rgb(111, 230, 111);
+    margin-top: 3%;
+    height: 700px;
+    width: 30%;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px black;
+    text-align: center;
+}
+.subBox{
+    padding: 6%;
+}
+
+h2,h5{
+    color: rgb(82, 55, 16);
+}
+h5{  
+    text-decoration: none;
+    transition: 0.3s;
+    font-family: Typo;
+    font-size: 15px;
+}
+h2{
+    
+    text-decoration: none;
+    transition: 0.3s;
+    font-family: DayDream;
+    font-size: 30px;
+}
+p{
+    text-decoration: none;
+    transition: 0.3s;
+    font-family: Typo;
+    font-size: 15px;
+}
+a{
+    color: rgb(144, 255, 100);
+    text-decoration: none;
+    transition: 0.3s;
+    font-family: Typo;
+}
+a:hover{
+    opacity: 0.7;
+}
+
+label{
+    font-family: Typo;
+}
+
+.logo{
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-family: DayDream;
+    color: rgb(144, 255, 100);
+    -webkit-text-stroke: 1px rgb(73, 119, 69);
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: url("/imagem/bush.png") repeat;
+    height: 15vh;
+}
+
+.nav-list{
+    list-style: none;
+    display: flex;
+}
+
+.nav-list li{
+    letter-spacing: 3px;
+    margin-left: 32px;
+}
+
+.input1{
+    margin-bottom: 3px;
+    background-color: rgba(52, 145, 52, 0.8);
+    font-size: 20px;
+    width: 50%;   
+    border-width: 3px;
+    border-style: solid; 
+    border-color: rgb(51, 35, 26); 
+}
+
+.Botao{
+    margin-top: 1%;
+    margin-bottom: 1%;
+    font-family: Typo;
+    font-size: 25px; 
+    color: rgb(19, 202, 19);
+    text-decoration: none;
+    background-color: rgb(58, 37, 8);
+    width: 30%;
+    border-radius: 10px;
+}
+
+
+/*header{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(1, 34, 4);
+    opacity: 0.8;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px 10px 20px black;
+}*/
+
+.titulo{
+    width: auto;
+    height: 200px;
+    margin-top: 90px;
+    margin-left: -300px;
+}
+
+.icon{
+    width: auto;
+    height: 100px;
+}
+
+@font-face {
+    font-family: Typo;
+    src: url("/font/Typo_Round_Regular_Demo.otf");
+ }
+@font-face {
+    font-family: DayDream;
+    src: url("/font/Daydream.ttf");
+}
+
+
+
